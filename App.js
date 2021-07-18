@@ -8,7 +8,7 @@ export default function App() {
       
       <View style={styles.car_container}>
         <View style={styles.titles}>
-            <Text>Model S</Text>
+            <Text style={styles.title}>Model S</Text>
             <Text>Starting from £87,980</Text>
         </View>
       </View>
@@ -26,6 +26,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   car_container: {
+
+  },
+  titles: {
+
+  },
+  title: {
 
   },
 });
