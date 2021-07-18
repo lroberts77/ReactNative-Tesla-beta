@@ -9,7 +9,7 @@ export default function App() {
       <View style={styles.car_container}>
         <View style={styles.titles}>
             <Text style={styles.title}>Model S</Text>
-            <Text>Starting from £87,980</Text>
+            <Text style={subtitle}>Starting from £87,980</Text>
         </View>
       </View>
 
@@ -32,6 +32,9 @@ const styles = StyleSheet.create({
 
   },
   title: {
+
+  },
+  subtitle: {
 
   },
 });
