@@ -9,6 +9,7 @@ export default function App() {
       <View style={styles.car_container}>
         <View style={styles.titles}>
             <Text>Model S</Text>
+            <Text>Starting from £87,980</Text>
         </View>
       </View>
 
