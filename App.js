@@ -50,5 +50,7 @@ const styles = StyleSheet.create({
   bg_image: {
     height: '100%',
     width: '100%',
+    resizeMode: 'cover',
+    position: 'absolute',
   },
 });
