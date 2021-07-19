@@ -35,9 +35,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-
+    fontSize: 40,
+    fontWeight: '500',
   },
   subtitle: {
-
+    fontSize: 18,
+    color: 'grey',
   },
 });
