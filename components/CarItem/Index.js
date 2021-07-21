@@ -16,7 +16,13 @@ const CarItem = () => {
             <Text style={styles.subtitle}>Starting from £87,980</Text>
         </View>
         <View>
-            <StyledButton type='primary'/>
+            <StyledButton 
+                type='primary'
+                content={'Custom Order'}
+                onPress={() => {
+                    console.warn('custom order')
+                }}
+                />
         </View>
       </View>
     );
