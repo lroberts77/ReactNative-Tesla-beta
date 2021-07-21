@@ -4,11 +4,11 @@ import styles from './styles';
 
 const StyledButton = () => {
     return (
-        <View >
+        <View style={styles.container}>
             <Pressable style={styles.btn} onPress={() => {
                 console.warn( 'Heyyyy' );
             }}>
-                <Text>custon btn</Text>
+                <Text style={styles.text}>custon btn</Text>
             </Pressable>
       </View>
     );
