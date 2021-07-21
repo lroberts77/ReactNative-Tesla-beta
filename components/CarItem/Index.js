@@ -16,7 +16,7 @@ const CarItem = () => {
             <Text style={styles.subtitle}>Starting from £87,980</Text>
         </View>
         <View>
-            <StyledButton />
+            <StyledButton type='primary'/>
         </View>
       </View>
     );

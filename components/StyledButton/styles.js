@@ -7,12 +7,15 @@ const styles = StyleSheet.create({
     },
     btn: {
         backgroundColor: 'grey',
-        width: '80%',
         height: 40,
-        justifyContent: 'center'
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: 20,
     },
     text: {
-
+        fontSize: 12,
+        fontWeight: '500',
+        textTransform: 'uppercase',
     },
 });
 
