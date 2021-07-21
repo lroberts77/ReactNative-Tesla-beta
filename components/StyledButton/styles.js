@@ -6,7 +6,10 @@ const styles = StyleSheet.create({
         padding: 10,
     },
     btn: {
-
+        backgroundColor: 'grey',
+        width: '80%',
+        height: 40,
+        justifyContent: 'center'
     },
     text: {
 
