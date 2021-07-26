@@ -4,10 +4,10 @@ import styles from './styles';
 
 const StyledButton = (props) => {
 
-    const type = props.type;
-
-    const content = props.content;
-    const onPress = props.onPress;
+    const { type, content, onPress } = props; 
+    // const type = props.type;
+    // const content = props.content;
+    // const onPress = props.onPress;
     const bgColor = type === 'primary' ? 'dimgrey' : 'lightgrey';
     const textColor = type === 'primary' ? 'white' : 'black';
 
