@@ -20,9 +20,16 @@ const CarItem = () => {
                 type='primary'
                 content={'Custom Order'}
                 onPress={() => {
-                    console.warn('custom order')
+                    console.warn('Custom Order')
                 }}
-                />
+            />
+            <StyledButton 
+                type='secondary'
+                content={'Available Inventory'}
+                onPress={() => {
+                    console.warn('Available Inventory')
+                }}
+            />
         </View>
       </View>
     );
