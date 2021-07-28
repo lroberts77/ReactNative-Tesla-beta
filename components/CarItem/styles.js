@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
       },
       subtitle: {
         fontSize: 18,
-        color: 'grey',
+        color: 'dimgrey',
       },
       bg_image: {
         height: '100%',
