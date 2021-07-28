@@ -15,7 +15,7 @@ const CarItem = () => {
             <Text style={styles.title}>Model S</Text>
             <Text style={styles.subtitle}>Starting from £87,980</Text>
         </View>
-        <View>
+        <View style={styles.btns-container}>
             <StyledButton 
                 type='primary'
                 content={'Custom Order'}
