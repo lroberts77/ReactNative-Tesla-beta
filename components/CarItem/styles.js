@@ -18,6 +18,9 @@ const styles = StyleSheet.create({
         fontSize: 18,
         color: 'dimgrey',
       },
+      taglineCTA: {
+        textDecorationLine: 'underline',
+      },
       bg_image: {
         height: '100%',
         width: '100%',
