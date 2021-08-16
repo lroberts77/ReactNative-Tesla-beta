@@ -1,13 +1,16 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, FlatList} from 'react-native';
 // import styles from './styles';
 import cars from './cars.js';
+import CarItem from '../CarItem';
 
 const CarsList = (props) => {
 
     return (
         <View>
-            <Text>test</Text>
+            <FlatList
+
+            />
         </View>
     );
 }
