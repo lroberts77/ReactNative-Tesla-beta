@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
       },
       taglineCTA: {
         textDecorationLine: 'underline',
+        color: '#3d3d3d',
       },
       bg_image: {
         height: '100%',
