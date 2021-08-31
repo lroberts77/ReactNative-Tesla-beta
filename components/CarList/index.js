@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, FlatList} from 'react-native';
+import {View, Text, FlatList, Dimensions} from 'react-native';
 // import styles from './styles';
 import cars from './cars.js';
 import CarItem from '../CarItem/Index.js';
@@ -14,6 +14,8 @@ const CarsList = (props) => {
                 renderItem={({item}) => <CarItem car={item} />} 
                 snapToAlignment={'start'}
                 decelerationRate={'fast'}
+                snapToInterval={Dimensions.get('window').height}
+                showsVerticalScrollIndicator={false}
             />
         </View>
     );
