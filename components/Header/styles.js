@@ -7,7 +7,9 @@ const styles = StyleSheet.create({
         zIndex: 5,
     },
     logo: {
-
+        width: 100,
+        height: 20,
+        resizeMode: 'contain',
     },
     menu: {
 
