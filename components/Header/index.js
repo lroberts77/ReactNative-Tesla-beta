@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import styles from './styles';
 
-const Header = (props) => {
+const Header = () => {
     return (
         <View style={styles.container}>
             <Image style={styles.logo} source={require('../../assets/logo.png')} />
