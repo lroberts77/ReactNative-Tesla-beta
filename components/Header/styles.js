@@ -5,6 +5,9 @@ const styles = StyleSheet.create({
         position: 'absolute',
         top: 50,
         zIndex: 5,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        width: '100%',
     },
     logo: {
         width: 100,
