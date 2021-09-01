@@ -12,7 +12,9 @@ const styles = StyleSheet.create({
         resizeMode: 'contain',
     },
     menu: {
-
+        width: 25,
+        height: 25,
+        resizeMode: 'contain',
     },
 });
 
