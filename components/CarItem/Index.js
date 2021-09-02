@@ -17,7 +17,14 @@ const CarItem = (props) => {
             <Text style={styles.title}>{name}</Text>
             <Text style={styles.subtitle}>{tagline}
             {' '}
-            <Text style={styles.taglineCTA}>{taglineCTA}</Text>
+            <Text 
+                style={styles.taglineCTA} 
+                onPress={() => {
+                    console.warn('Touchless Delivery Ordered')
+                }}
+                >
+                    {taglineCTA}
+                </Text>
             </Text>
         </View>
         <View style={styles.btns_container}>
