@@ -5,7 +5,7 @@
 <div>
 <img src="https://img.shields.io/badge/made%20with-React-green.svg?logo=react&colorA=000000&colorB=be33ff" alt="made with ReactNative" />
 
-<img src="(https://api.netlify.com/api/v1/badges/d92368de-c791-43c1-a221-7e3c990bf7cb/deploy-status" alt="netlify success" />
+<img src="https://api.netlify.com/api/v1/badges/d92368de-c791-43c1-a221-7e3c990bf7cb/deploy-status" alt="netlify success" />
 </div>
 
 ### Technologies: React Native, Node.js, JavaScript, HTML, CSS, Expo
